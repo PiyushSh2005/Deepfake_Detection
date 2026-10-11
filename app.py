@@ -20,10 +20,7 @@ st.title("🔍 Deepfake Detection System")
 st.write(
     "Upload an image or video to estimate whether it appears real or fake."
 )
-st.warning(
-    "This is an educational ML model. Predictions may be incorrect "
-    "and should not be treated as proof of authenticity."
-)
+
 
 @st.cache_resource
 def load_model():
